@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Bone89923/backendTemplate/issues"
   },
-  "homepage": "https://github.com/Bone89923/backendTemplate#readme"
+  "homepage": "https://github.com/Bone89923/backendTemplate#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
